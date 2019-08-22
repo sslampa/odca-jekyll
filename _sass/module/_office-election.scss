@@ -1,3 +1,9 @@
+.office-election__container {
+  display: none; 
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-gap: 0 30px;
+}
+
 .office-election__header {
   border-bottom: 2px $color-gold solid;
 }
